@@ -22,7 +22,6 @@ public class EmployeeRatingApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(EmployeeRatingApplication.class, args);
     }
-
     @Bean
     public ModelMapper getMapper() {
         return new ModelMapper();
